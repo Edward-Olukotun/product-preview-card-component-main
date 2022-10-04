@@ -1,0 +1,115 @@
+@import url("https://fonts.google.com/specimen/Montserrat");
+@import url("https://fonts.google.com/specimen/Fraunces");
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: hsl(0deg, 0%, 100%);
+  display: grid;
+  place-items: center;
+}
+
+main {
+  background: hsl(30deg, 38%, 92%);
+  width: 80%;
+  height: 100%;
+  margin-top: 10px;
+  border: 2px solid hsl(0deg, 0%, 100%);
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background: hsl(0deg, 0%, 100%);
+  margin-bottom: -10px;
+}
+.image img {
+  border: 2px solid hsl(0deg, 0%, 100%);
+  border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 250px;
+}
+
+.content {
+  margin-left: 25px;
+  margin-right: 12px;
+  word-spacing: 3px;
+  font-size: 14px;
+}
+.content .perfume {
+  letter-spacing: 3px;
+}
+.content p {
+  color: hsl(228deg, 12%, 48%);
+}
+.content h2 {
+  width: 80%;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: hsl(212deg, 21%, 14%);
+}
+.content span {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: hsl(158deg, 36%, 37%);
+}
+.content span .price {
+  color: hsl(228deg, 12%, 48%);
+  display: grid;
+  place-items: center;
+  margin-left: 20px;
+}
+.content button {
+  width: 80%;
+  background: hsl(158deg, 36%, 37%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  border: 1px solid hsl(30deg, 38%, 92%);
+}
+.content button:hover {
+  cursor: pointer;
+}
+.content button img {
+  height: 20px;
+  width: 20px;
+  margin-right: 8px;
+}
+.content button p {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+  }
+  .image {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+    display: flex;
+  }
+  .image img {
+    border: 2px solid hsl(0deg, 0%, 100%);
+    border-radius: 8px 0 0 8px;
+    width: 100%;
+    height: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+}/*# sourceMappingURL=index.css.map */
