@@ -60,7 +60,7 @@ main {
   font-size: 25px;
   color: hsl(212deg, 21%, 14%);
 }
-.content span {
+.content .value {
   margin-left: 25px;
   margin-right: 12px;
   width: 100%;
@@ -68,7 +68,7 @@ main {
   flex-direction: row;
   color: hsl(158deg, 36%, 37%);
 }
-.content span .price {
+.content .value .price {
   color: hsl(228deg, 12%, 48%);
   display: grid;
   place-items: center;
@@ -85,6 +85,10 @@ main {
   justify-content: center;
   margin-bottom: 15px;
   border: 1px solid hsl(30deg, 38%, 92%);
+  color: hsl(0deg, 0%, 100%);
+  font-size: 17px;
+  font-weight: 500;
+  height: 55px;
 }
 .content button:hover {
   cursor: pointer;
@@ -93,11 +97,6 @@ main {
   height: 20px;
   width: 20px;
   margin-right: 8px;
-}
-.content button p {
-  color: hsl(0deg, 0%, 100%);
-  font-size: 17px;
-  font-weight: 500;
 }
 
 @media only screen and (min-width: 768px) {
